@@ -1,0 +1,108 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cyan;
+    padding: 15px 30px;
+}
+
+.logo {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Nav Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: purple;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    color: cyan;
+    margin-bottom: 10px;
+}
+
+.services p {
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+/* Service Boxes */
+.service-box {
+    background-color: #111;
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-box h3 {
+    color: cyan;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    margin-bottom: 10px;
+}
+
+.service-box ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.service-box ul li {
+    margin: 5px 0;
+}
+
+/* Hover Effect */
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px purple;
+}
+
+/* Footer */
+footer {
+    background-color: cyan;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
